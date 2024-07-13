@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 30vh;
+  width: 35vw;
+  justify-content: center;
+  margin: auto;
+  border-radius: 50px;
+  border: 3px solid black;
+}
+
+.display {
+  font-size: 4rem;
+  font-family: monospace;
+  margin-bottom: 10px;
+}
+
+.controls_buttons{
+    margin: 5px 0 ;
+}
+
+.button {
+  font-size: 1.5rem;
+  border: solid 0px black;
+  border-radius: 10px;
+  padding: 3px 20px;
+  color: white; 
+  cursor: pointer;
+  font-weight: 520 ;
+}
+.start {
+  margin-right: 30px;
+  background-color: rgb(128, 249, 128);
+}
+
+.stop {
+  margin-right: 30px;
+  background-color: rgb(254, 35, 35);
+}
+
+.reset {
+  background-color: rgb(53, 153, 247);
+}
