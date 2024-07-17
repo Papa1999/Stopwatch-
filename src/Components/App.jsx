@@ -2,7 +2,13 @@ import React from "react";
 import Stopwatch from "./Stopwatch";
 
 function App() {
-  return <Stopwatch />;
+  return (
+    <>
+      <Stopwatch />;
+      <Stopwatch />;
+      <Stopwatch />;
+    </>
+  ); 
 }
 
 export default App;
